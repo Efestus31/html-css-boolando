@@ -1,60 +1,71 @@
-
 /* #region utility */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
- .root{
-    -main-header:#ff6900;
-    -main-footer:#1a1a1a;
- }
-.resize{
+
+.root {
+    -main-header: #ff6900;
+    -main-footer: #1a1a1a;
+}
+
+.resize {
     height: 20px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
-img{
+
+img {
     max-width: 300px;
     max-height: 600px;
 }
-.p{
+
+.p {
     padding: 2rem 0.5rem 0;
 }
-.p-x9{
+
+.p-x9 {
     padding-left: 9px;
 }
-.font-resize{
+
+.font-resize {
     font-size: small;
 }
+
 /* #endregion utility */
 
 
 
 /* #region header */
- .header{
+.header {
     background: #ff6900;
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
- /* #endregion header */
+    padding: 1rem;
+}
 
- /* #region main */
- .container{
+/* #endregion header */
+
+/* #region main */
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
- }
- .product{
+}
+
+.product {
     position: relative;
     padding-bottom: 0;
- }
- .discount{
+}
+
+.discount {
     position: absolute;
     top: 75%;
     left: 5%;
@@ -63,8 +74,9 @@ img{
     font-size: small;
     padding: 3px 10px;
     border-radius: 999px;
- }
- .eco-friendly{
+}
+
+.eco-friendly {
     position: absolute;
     top: 75%;
     left: 16%;
@@ -72,10 +84,11 @@ img{
     color: white;
     font-size: small;
     padding: 3px 10px;
-    margin-left: 1.5rem;    
+    margin-left: 1.5rem;
     border-radius: 999px;
- }
- #eco-friendly{
+}
+
+#eco-friendly {
     position: absolute;
     top: 75%;
     left: 5%;
@@ -83,61 +96,80 @@ img{
     color: white;
     font-size: small;
     padding: 3px 10px;
-    margin-left: 1.5rem;    
+    margin-left: 1.5rem;
     border-radius: 999px;
- }
- .brand{
+}
+
+.brand {
     font-weight: 100;
     font-size: small;
- }
- .description{
+}
+
+.description {
     font-weight: bold;
- }
- .price{
+}
+
+.price {
     color: red;
     font-weight: bold;
     display: inline-block;
- }
- .sale{
-    text-decoration:line-through;
+}
+
+.sale {
+    text-decoration: line-through;
     display: inline;
     font-size: small;
- }
- .heart{
+}
+
+.heart {
     position: absolute;
     bottom: 80%;
     right: 2%;
     background-color: white;
     padding: 0.2rem 0.6rem;
     font-size: xx-large;
- }
- .hover{
-    position:absolute;
-    display: none;
- }
- .product:hover .hover{
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 32px;
+    display: none
+}
+
+.product:hover .back {
     display: block;
- }
+}
+
+.back:hover .product {
+    display: none;
+}
 
 
- /* #endregion main */
 
 
 
- /* #region footer */
- .app-footer{
+/* #endregion main */
+
+
+
+/* #region footer */
+.app-footer {
     background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
- }
- .boolando{
+    padding: 1rem;
+}
+
+.boolando {
     color: white;
     font-size: large
- }
+}
 
- .bg{
+.bg {
     background-color: white;
- }
+}
 
- /* #endregion footer */
+/* #endregion footer */

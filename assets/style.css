@@ -28,6 +28,9 @@ img{
 .p-x9{
     padding-left: 9px;
 }
+.font-resize{
+    font-size: small;
+}
 /* #endregion utility */
 
 
@@ -108,4 +111,33 @@ img{
     padding: 0.2rem 0.6rem;
     font-size: xx-large;
  }
+ .hover{
+    position:absolute;
+    display: none;
+ }
+ .product:hover .hover{
+    display: block;
+ }
+
+
  /* #endregion main */
+
+
+
+ /* #region footer */
+ .app-footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .boolando{
+    color: white;
+    font-size: large
+ }
+
+ .bg{
+    background-color: white;
+ }
+
+ /* #endregion footer */
